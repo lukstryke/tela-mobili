@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #e7e7e7;
+}
+
+
+
+header{
+    background-color: #ffff;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.posicionamento{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.elementos_header{
+    display: flex;
+    align-items: center;   
+    
+}
+
+.mobili_footer{
+    display: flex;
+
+}
+
+.elementos_header img{
+    margin-right: 160px;
+}
+
+   
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login_cadastro{
+    display: flex;
+}
+
+.menu nav{
+    display: flex;
+    width: 345px;
+    justify-content: space-between;
+}
+
+.menu .login_cadastro{
+    display:flex;
+    width: 150px;
+    justify-content:space-between
+}
+
+h1 {
+    width: 1em;
+    position: absolute;
+    left: -999em;
+    overflow: hidden;
+}
+
+.sessao1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posicionamento_main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+.card{
+    height:300px;
+    width: 550px;
+    background-color: blue;
+    margin-bottom: 30px;
+    color: #ffff;
+}
+
+.card2{
+height: 300px;
+width: 100%;
+background-color: blue;
+margin-bottom: 30px;
+color: #ffff;
+}
+
+.missao_visao{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.nossa_missao{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.mobili_footer{
+
+    display: flex;
+    justify-content: space-between  ;
+}
+.redes{
+    width: 200px;
+    
+}
+    
+.redes_sociais{
+    display: flex;
+    justify-content: space-between;
+}  
+.paginas_newsletter{
+    display: flex;
+    justify-content:space-between;
+}
+
+.paginas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.newsletter{
+    height: 150px;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+
+}
+footer{
+    height: 220px;
+    background-color:aqua;
+}
